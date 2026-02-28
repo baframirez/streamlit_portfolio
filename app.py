@@ -20,6 +20,18 @@ elif page == "Projects":
     # sample project metadata; in a real app this could be loaded from a JSON or database
     projects = [
         {
+            "title": "Fire Prediction",
+            "description": "Created a Fire Risk Dataset using satelite and meteorological data to predict Fire in real Time.",
+            "tech": "Python, Pandas, scikit-learn, Streamlit",
+            "link": "https://github.com/baframirez/Fire-Risk-Dataset"
+        },
+        {
+            "title": "Ship Telemetry",
+            "description": "Developed a telemetry data pipeline to analyze the operation parameters from a ship propulsed by hidrogen.",
+            "tech": "Python, Assamdf, MinIO, Grafana, Streamlit",
+            "link": "https://github.com/baframirez/Telemetry"
+        },
+        {
             "title": "Customer Churn Analysis",
             "description": "Analyzed telecom customer churn with logistic regression and dashboarded insights.",
             "tech": "Python, scikit-learn, Streamlit",
@@ -67,4 +79,4 @@ elif page == "Contact":
     st.header("Contact")
     st.write("Feel free to reach out via email or LinkedIn.")
     st.write("**Email:** example@example.com")
-    st.write("**LinkedIn:** [profile](https://www.linkedin.com/in/username)")
+    st.write("**LinkedIn:** [profile](https://www.linkedin.com/in/baframirez)")
